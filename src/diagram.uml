@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="200.5" y="127.75">Attacks.DoubleTeam</node>
+    <node x="96.5" y="39.0">Pokemons.Victreebel</node>
+    <node x="977.5" y="-14.5">Attacks.SleepPowder</node>
+    <node x="248.5" y="-12.5">Pokemons.Bellsprout</node>
+    <node x="-60.0" y="-14.5">Attacks.Confide</node>
+    <node x="962.0" y="39.0">Attacks.Rest</node>
+    <node x="912.5" y="127.75">Attacks.RockSlide</node>
+    <node x="973.5" y="-87.0">Attacks.RockTomb</node>
+    <node x="-72.0" y="39.0">Pokemons.Weepinbell</node>
+    <node x="240.0" y="-87.0">Pokemons.Magcargo</node>
+    <node x="832.0" y="-123.0">Main</node>
+    <node x="756.5" y="127.75">Attacks.RockThrow</node>
+    <node x="31.0" y="-103.5">Pokemons.Oranguru</node>
+    <node x="985.0" y="-143.0">Attacks.StoneEdge</node>
+    <node x="239.0" y="57.625">Attacks.PoisonPowder</node>
+    <node x="832.0" y="-12.5">BattleInt</node>
+    <node x="249.0" y="-143.0">Pokemons.Slugma</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Pokemons.Victreebel" target="Pokemons.Weepinbell" relationship="GENERALIZATION">
+      <point x="-58.5" y="-0.0" />
+      <point x="63.0" y="-0.0" />
+    </edge>
+    <edge source="Pokemons.Weepinbell" target="Pokemons.Bellsprout" relationship="GENERALIZATION">
+      <point x="-0.0" y="-14.5" />
+      <point x="-9.0" y="2.0" />
+      <point x="-58.5" y="-0.0" />
+    </edge>
+    <edge source="Pokemons.Magcargo" target="Pokemons.Slugma" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.8" showDependencies="false" x="555.625" y="60.625" />
+  <SelectedNodes>
+    <node>Attacks.StoneEdge</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
